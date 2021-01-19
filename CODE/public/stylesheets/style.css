@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   display: grid;
   grid-template-areas:"header header header" "nav main aside" "footer footer footer";
@@ -68,6 +67,10 @@ nav a:visited{
   color: white;
 }
 
+nav a:hover{
+  color: rgb(200, 200, 170);
+}
+
 main{
   grid-area: main;
   color:#333333;
@@ -94,3 +97,6 @@ aside a:visited{
   color:#014b68;
 }
 
+aside a:hover{
+ color:rgb(200, 200, 170);
+}

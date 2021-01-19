@@ -28,3 +28,26 @@ tr:hover{
   background-color: #014b68;
   color:white;
 }
+
+nav{
+  grid-area: nav;
+  flex-direction: column;
+  background-color: white;
+  margin: 0px 5px 5px 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+nav a:link{
+  color: #014b68;
+  text-decoration: none;
+}
+
+nav a:visited{
+  color: #014b68;
+}
+
+nav a:hover{
+  background-color:#014b68;
+  color: white;
+}
