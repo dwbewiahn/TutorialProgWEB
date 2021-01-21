@@ -29,3 +29,10 @@ function getCalculate() {
     document.getElementById("finalGrade").innerHTML = "Student " + studentName + " obtained " + finalScore.toFixed(1) + " on the " + unitName + " unit.";
 
 }
+
+function resetAll(){
+
+    document.getElementById("gradeStudent").reset();
+    document.getElementById("finalGrade").innerHTML = "";
+
+}
