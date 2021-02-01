@@ -61,3 +61,8 @@ font: bold 15px arial, sans-serif;
 
 
 }
+
+.warningMsg{
+    color: red;
+    display: none;
+}

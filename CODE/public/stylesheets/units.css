@@ -3,7 +3,7 @@ header{
 }
 
 table{
-  margin-top: 20px;
+  margin-top: 5px;
   width: 100%;
   border: 2px solid gray;
   border-collapse: collapse;  
@@ -31,14 +31,15 @@ tr:hover{
 
 nav{
   grid-area: nav;
-  flex-direction: column;
-  background-color: white;
-  margin: 0px 5px 5px 0px;
-  font-size: 30px;
+  font-size: 20px; 
+  margin-top: 5px;
+  height: 50px;
   text-align: center;
+  justify-content: center; 
+  
 }
 
-nav a:link{
+/* nav a:link{
   color: #014b68;
   text-decoration: none;
 }
@@ -50,4 +51,4 @@ nav a:visited{
 nav a:hover{
   background-color:#014b68;
   color: white;
-}
+} */
