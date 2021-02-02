@@ -12,8 +12,8 @@ router.get('/:pos', async function(req, res, next){
   res.send(await mStudents.getStudent(req.params.pos));
 });
 
-/* Save a Grade for a unit */
-
+/* Save a Grade for a unit in body */
+/* body  {"unit" : "Mathematics" , "grade" : "20" , "uId" : "1"} */
 router.post('/:pos', async function(req, res, next){
   let pos = req.params.pos;
   let objUnit = req.body;
